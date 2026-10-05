@@ -1,0 +1,40 @@
+{
+  "admin": {
+    "email": "admin@escola.com",
+    "senha": "admin123"
+  },
+  "casos": [
+    {
+      "nomeCaso": "Cadastrar aluno e entregar trabalho em Matematica",
+      "novoAluno": {
+        "nome": "Aluno Data Driven 1",
+        "email": "dd.aluno1@example.com",
+        "matricula": "990001",
+        "senha": "aluno123"
+      },
+      "matricula": {
+        "disciplinaId": "disciplina-matematica"
+      },
+      "trabalho": {
+        "titulo": "Lista de Exercicios DD 1",
+        "descricao": "Entrega automatizada do caso 1"
+      }
+    },
+    {
+      "nomeCaso": "Cadastrar aluno e entregar trabalho em Programacao Web",
+      "novoAluno": {
+        "nome": "Aluno Data Driven 2",
+        "email": "dd.aluno2@example.com",
+        "matricula": "990002",
+        "senha": "aluno123"
+      },
+      "matricula": {
+        "disciplinaId": "disciplina-programacao-web"
+      },
+      "trabalho": {
+        "titulo": "Landing Page DD",
+        "descricao": "Entrega automatizada do caso 2"
+      }
+    }
+  ]
+}
